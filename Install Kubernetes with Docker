@@ -78,7 +78,7 @@ kube-system   weave-net-2ifri
 
 PS: The git.io site is a short url service from github. The weave-kube route points to a Kibernetes spec for a DaemonSet which is a resource that runs on every node in a cluster. This Weave DaemonSet ensures that the weaveworks/weave-kube:1.7.1 image is running in a pod on all hosts, providing support for multihost networking throughout the cluster.
 
-Configure kubernetes cluster via kubectl
+##Configure kubernetes cluster via kubectl
 
 kubectl or kubectl help config or kubectl config view can be used kubectl control a remote cluster, we must specify the cluster endpoint to kubctl
 
@@ -139,7 +139,7 @@ preferences: {}
 StartFragment EndFragment
 users: []
 
-Test the cluster
+##Test the cluster
 
 $ kubectl cluster-info
 Kubernetes master is running at http://localhost:8080
